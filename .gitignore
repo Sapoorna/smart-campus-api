@@ -1,0 +1,6 @@
+target/
+nbproject/
+nb-configuration.xml
+*.war
+*.log
+.DS_Store
