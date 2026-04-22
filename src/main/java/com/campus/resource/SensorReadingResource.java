@@ -3,9 +3,9 @@ package com.campus.resource;
 import com.campus.exception.SensorUnavailableException;
 import com.campus.model.Reading;
 import com.campus.model.Sensor;
-import javax.ws.rs.*;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
+import jakarta.ws.rs.*;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.Response;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -56,4 +56,3 @@ public class SensorReadingResource {
                        .build();
     }
 }
-
